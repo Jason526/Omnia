@@ -1,4 +1,7 @@
-# Omnia ![omnialogo](omnialogo.png)
+# Omnia 
+
+
+![omnialogo](omnialogo.png)
 
 
 `Project by: Jason526, palvisha13, vivaanxr, Rafimaleque99`
