@@ -2,6 +2,7 @@
 
 
 `Project by: Jason526, palvisha13, vivaanxr, Rafimaleque99`
+
 -----
 ## About Omnia
 
@@ -9,6 +10,10 @@ Omnia is your app for everything. Need someone to deliver a parcel? Omnia has yo
 by the time you need it. Need a ride? Omnia's got you. Need something picked up? Need some shopping done? Do I really need to say it again? Omnia allows users to create postings for jobs or errands they need completed and the time you need them completed by, and "errand runnes (need a better word) signed up 
 through the app can accept and complete those tasks. If you have a specific reoccurent task? Not a problem. Omnia has a scheudler that allows you to schedule a task once and set it to reoccur however often you need it, ensuring that 
 there is always someone ready to complete your task in a timely manner. 
+
+
+---- 
+
 
 ## Inspiration 
 Omnia is a true COVID-era creation.
