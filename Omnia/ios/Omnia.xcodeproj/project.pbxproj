@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* OmniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OmniaTests.m */; };
+		026676FEF5DF680E3AE2D1E7 /* libPods-Omnia-OmniaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C9CE65B220532A31F270D /* libPods-Omnia-OmniaTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2BF8488C29B20197F1E29109 /* libPods-Omnia-OmniaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CD2CD4D77C45DCDC047C80 /* libPods-Omnia-OmniaTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* OmniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OmniaTests.m */; };
-		6871C9E648A5C77B9A7288ED /* libPods-Omnia-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7EB70B53C4E7C00881FA53 /* libPods-Omnia-tvOS.a */; };
-		72101FC9690F969E2093212C /* libPods-Omnia-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9642E74724056C797F22B0CA /* libPods-Omnia-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A469A72755B119C20D0DE3D3 /* libPods-Omnia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B109C60E3AB3B33BE97DC96 /* libPods-Omnia.a */; };
+		91A67821FBEFCE316D3A4484 /* libPods-Omnia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7CF1EB287530A22F1C91C3 /* libPods-Omnia.a */; };
+		A558B7EF2244E5E9B7C7A828 /* libPods-Omnia-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0117D8012499FDDEDBDF1BDB /* libPods-Omnia-tvOSTests.a */; };
+		CF7415C6112A4527623DE2CC /* libPods-Omnia-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA51080D8E1FE6B1BFF99BB /* libPods-Omnia-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* OmniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* OmniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmniaTests.m; sourceTree = "<group>"; };
-		11BF59907102141CFC6B4562 /* Pods-Omnia-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOSTests/Pods-Omnia-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0117D8012499FDDEDBDF1BDB /* libPods-Omnia-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Omnia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omnia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Omnia/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Omnia/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Omnia/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Omnia/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Omnia/main.m; sourceTree = "<group>"; };
-		18AB0FF6BDD710321ED2A070 /* Pods-Omnia-OmniaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-OmniaTests.debug.xcconfig"; path = "Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A68C72849A39977E7C51436 /* Pods-Omnia-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOS/Pods-Omnia-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Omnia-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omnia-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Omnia-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31DBA3F55294604F4F08E8CA /* Pods-Omnia-OmniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-OmniaTests.release.xcconfig"; path = "Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests.release.xcconfig"; sourceTree = "<group>"; };
-		5B109C60E3AB3B33BE97DC96 /* libPods-Omnia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEFBB1EA4E74BF0F8852608 /* Pods-Omnia-OmniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-OmniaTests.release.xcconfig"; path = "Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests.release.xcconfig"; sourceTree = "<group>"; };
+		425C9CE65B220532A31F270D /* libPods-Omnia-OmniaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia-OmniaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C21F2A3D62DE9062166A3A3 /* Pods-Omnia-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOSTests/Pods-Omnia-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		708BA9F4A3821789F855C678 /* Pods-Omnia-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOS/Pods-Omnia-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		71DBA99EACFADF5DF6FCA9DB /* Pods-Omnia-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOSTests/Pods-Omnia-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Omnia/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88A7397CFE97E15CFB6F295F /* Pods-Omnia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia.debug.xcconfig"; path = "Target Support Files/Pods-Omnia/Pods-Omnia.debug.xcconfig"; sourceTree = "<group>"; };
-		8A69307CC1B651FE6E0E541C /* Pods-Omnia-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOSTests/Pods-Omnia-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9642E74724056C797F22B0CA /* libPods-Omnia-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB7EB70B53C4E7C00881FA53 /* libPods-Omnia-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B779358B3D04DC083745EC5B /* Pods-Omnia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia.release.xcconfig"; path = "Target Support Files/Pods-Omnia/Pods-Omnia.release.xcconfig"; sourceTree = "<group>"; };
-		C9F8DDA72FCA00208171FA10 /* Pods-Omnia-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOS/Pods-Omnia-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E2CD2CD4D77C45DCDC047C80 /* libPods-Omnia-OmniaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia-OmniaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95ABB7D076A284879500452A /* Pods-Omnia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia.debug.xcconfig"; path = "Target Support Files/Pods-Omnia/Pods-Omnia.debug.xcconfig"; sourceTree = "<group>"; };
+		BAA51080D8E1FE6B1BFF99BB /* libPods-Omnia-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7CF1EB287530A22F1C91C3 /* libPods-Omnia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Omnia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5956BA814F525AF7C88208 /* Pods-Omnia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia.release.xcconfig"; path = "Target Support Files/Pods-Omnia/Pods-Omnia.release.xcconfig"; sourceTree = "<group>"; };
+		ED109663309D2FDC6C4086D1 /* Pods-Omnia-OmniaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-OmniaTests.debug.xcconfig"; path = "Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FCBAB1D7F970CF26007508EB /* Pods-Omnia-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnia-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Omnia-tvOS/Pods-Omnia-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF8488C29B20197F1E29109 /* libPods-Omnia-OmniaTests.a in Frameworks */,
+				026676FEF5DF680E3AE2D1E7 /* libPods-Omnia-OmniaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A469A72755B119C20D0DE3D3 /* libPods-Omnia.a in Frameworks */,
+				91A67821FBEFCE316D3A4484 /* libPods-Omnia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6871C9E648A5C77B9A7288ED /* libPods-Omnia-tvOS.a in Frameworks */,
+				CF7415C6112A4527623DE2CC /* libPods-Omnia-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72101FC9690F969E2093212C /* libPods-Omnia-tvOSTests.a in Frameworks */,
+				A558B7EF2244E5E9B7C7A828 /* libPods-Omnia-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +122,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0532BADA8253C72E5B1A78BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95ABB7D076A284879500452A /* Pods-Omnia.debug.xcconfig */,
+				EA5956BA814F525AF7C88208 /* Pods-Omnia.release.xcconfig */,
+				ED109663309D2FDC6C4086D1 /* Pods-Omnia-OmniaTests.debug.xcconfig */,
+				3EEFBB1EA4E74BF0F8852608 /* Pods-Omnia-OmniaTests.release.xcconfig */,
+				708BA9F4A3821789F855C678 /* Pods-Omnia-tvOS.debug.xcconfig */,
+				2A68C72849A39977E7C51436 /* Pods-Omnia-tvOS.release.xcconfig */,
+				71DBA99EACFADF5DF6FCA9DB /* Pods-Omnia-tvOSTests.debug.xcconfig */,
+				6C21F2A3D62DE9062166A3A3 /* Pods-Omnia-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* Omnia */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				5B109C60E3AB3B33BE97DC96 /* libPods-Omnia.a */,
-				E2CD2CD4D77C45DCDC047C80 /* libPods-Omnia-OmniaTests.a */,
-				AB7EB70B53C4E7C00881FA53 /* libPods-Omnia-tvOS.a */,
-				9642E74724056C797F22B0CA /* libPods-Omnia-tvOSTests.a */,
+				DD7CF1EB287530A22F1C91C3 /* libPods-Omnia.a */,
+				425C9CE65B220532A31F270D /* libPods-Omnia-OmniaTests.a */,
+				BAA51080D8E1FE6B1BFF99BB /* libPods-Omnia-tvOS.a */,
+				0117D8012499FDDEDBDF1BDB /* libPods-Omnia-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* OmniaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				DE7FBD617C603B69AA74B4B8 /* Pods */,
+				0532BADA8253C72E5B1A78BC /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE7FBD617C603B69AA74B4B8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				88A7397CFE97E15CFB6F295F /* Pods-Omnia.debug.xcconfig */,
-				B779358B3D04DC083745EC5B /* Pods-Omnia.release.xcconfig */,
-				18AB0FF6BDD710321ED2A070 /* Pods-Omnia-OmniaTests.debug.xcconfig */,
-				31DBA3F55294604F4F08E8CA /* Pods-Omnia-OmniaTests.release.xcconfig */,
-				C9F8DDA72FCA00208171FA10 /* Pods-Omnia-tvOS.debug.xcconfig */,
-				FCBAB1D7F970CF26007508EB /* Pods-Omnia-tvOS.release.xcconfig */,
-				11BF59907102141CFC6B4562 /* Pods-Omnia-tvOSTests.debug.xcconfig */,
-				8A69307CC1B651FE6E0E541C /* Pods-Omnia-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OmniaTests" */;
 			buildPhases = (
-				FCF5C13A7F2CBB9E0C46361A /* [CP] Check Pods Manifest.lock */,
+				F47E23EFFA7469F601C6F89A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				924BA5116CAB6903C46D1FDB /* [CP] Copy Pods Resources */,
+				800EEE63B3C5105B06352EBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Omnia" */;
 			buildPhases = (
-				10C3180C8D6D0D167991AB52 /* [CP] Check Pods Manifest.lock */,
+				FA6357681FCDDB04896979B9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A9B069A4B43C1648DEE4E354 /* [CP] Copy Pods Resources */,
+				1D563A9AEC224979783D7E9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Omnia-tvOS" */;
 			buildPhases = (
-				1285E2495070835E04A8CE49 /* [CP] Check Pods Manifest.lock */,
+				B890CB1E1B3D4AF80E130472 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Omnia-tvOSTests" */;
 			buildPhases = (
-				D20C253B6E51BD1997F55942 /* [CP] Check Pods Manifest.lock */,
+				6F4C13468B5D035AFA6231C6 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,83 +377,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		10C3180C8D6D0D167991AB52 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Omnia-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1285E2495070835E04A8CE49 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Omnia-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		924BA5116CAB6903C46D1FDB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9B069A4B43C1648DEE4E354 /* [CP] Copy Pods Resources */ = {
+		1D563A9AEC224979783D7E9A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,7 +395,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Omnia/Pods-Omnia-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D20C253B6E51BD1997F55942 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		6F4C13468B5D035AFA6231C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,7 +431,47 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FCF5C13A7F2CBB9E0C46361A /* [CP] Check Pods Manifest.lock */ = {
+		800EEE63B3C5105B06352EBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Omnia-OmniaTests/Pods-Omnia-OmniaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B890CB1E1B3D4AF80E130472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Omnia-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F47E23EFFA7469F601C6F89A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -509,6 +487,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Omnia-OmniaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA6357681FCDDB04896979B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Omnia-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -608,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18AB0FF6BDD710321ED2A070 /* Pods-Omnia-OmniaTests.debug.xcconfig */;
+			baseConfigurationReference = ED109663309D2FDC6C4086D1 /* Pods-Omnia-OmniaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +631,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31DBA3F55294604F4F08E8CA /* Pods-Omnia-OmniaTests.release.xcconfig */;
+			baseConfigurationReference = 3EEFBB1EA4E74BF0F8852608 /* Pods-Omnia-OmniaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +651,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88A7397CFE97E15CFB6F295F /* Pods-Omnia.debug.xcconfig */;
+			baseConfigurationReference = 95ABB7D076A284879500452A /* Pods-Omnia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B779358B3D04DC083745EC5B /* Pods-Omnia.release.xcconfig */;
+			baseConfigurationReference = EA5956BA814F525AF7C88208 /* Pods-Omnia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9F8DDA72FCA00208171FA10 /* Pods-Omnia-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 708BA9F4A3821789F855C678 /* Pods-Omnia-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCBAB1D7F970CF26007508EB /* Pods-Omnia-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2A68C72849A39977E7C51436 /* Pods-Omnia-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11BF59907102141CFC6B4562 /* Pods-Omnia-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 71DBA99EACFADF5DF6FCA9DB /* Pods-Omnia-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A69307CC1B651FE6E0E541C /* Pods-Omnia-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6C21F2A3D62DE9062166A3A3 /* Pods-Omnia-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
