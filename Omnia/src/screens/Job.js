@@ -1,10 +1,8 @@
-import React,{useState} from 'react';
-import {Text,StyleSheet,View,TouchableOpacity,Image} from 'react-native';
+import React from 'react';
+import {Text,StyleSheet} from 'react-native';
 
 
 const Job= () => {
-  const search1 = React.createRef();
-  const [value,setValue]=useState("");
 
   return (
     <>
