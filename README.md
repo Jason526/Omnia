@@ -1,4 +1,4 @@
-# Omnia [omnialogo](omnialogo.jpg)
+# Omnia [omnialogo]("omnialogo.jpg")
 
 
 `Project by: Jason526, palvisha13, vivaanxr, Rafimaleque99`
