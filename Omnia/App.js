@@ -47,8 +47,28 @@ function LogoTitle() {
     return (
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="LoginScreen" component={LoginScreen} />
-          <Stack.Screen name="RegistrationScreen" component={RegistrationScreen} />
+        <Stack.Screen name="LoginScreen" component={LoginScreen} 
+        options={{
+          headerTitle: props => <LogoTitle {...props} /> ,
+          headerStyle: {
+            height: 120,
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}/>
+          <Stack.Screen name="RegistrationScreen" component={RegistrationScreen} 
+        options={{
+          headerTitle: props => <LogoTitle {...props} /> ,
+          headerStyle: {
+            height: 120,
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}/>
           <Stack.Screen name="Main" component={Main} 
         options={{
           headerTitle: props => <LogoTitle {...props} /> ,

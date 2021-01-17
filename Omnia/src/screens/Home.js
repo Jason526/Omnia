@@ -39,7 +39,7 @@ const Home= ({navigation}) => {
 
       <View style={{width:"100%",height:3,backgroundColor:"#ededed",lineHeight:1}}/>
 
-      <Text style={{fontSize:20,paddingTop:30}}>Shortcut for Jobs</Text>
+      <Text style={{fontSize:20,paddingTop:30,paddingLeft:30}}>Jobs</Text>
       <Text style={{fontSize:10}}>{"\n"}</Text>
       <FlatList
       data={filterArray}
@@ -53,8 +53,9 @@ const Home= ({navigation}) => {
         );
       }}
     />
+  <Text style={{fontSize:20,paddingTop:30,paddingLeft:30}}>Past Jobs</Text>
 
-      
+
 
 
       </KeyboardAwareScrollView>
