@@ -1,19 +1,16 @@
 import React from 'react';
-import {Text,StyleSheet,TouchableOpacity} from 'react-native';
+import {Text, StyleSheet, TouchableOpacity} from 'react-native';
 
-
-const LoginScreen= ({navigation}) => {
-
+const LoginScreen = ({navigation}) => {
   return (
     <>
-    <TouchableOpacity onPress={() => navigation.navigate('RegistrationScreen')}>
-      <Text style={{fontSize:100}}>click for RegistrationScreen</Text>
-      </TouchableOpacity>      
+      <TouchableOpacity onPress={() => navigation.navigate('Choice')}>
+        <Text style={{fontSize: 100}}>choice</Text>
+      </TouchableOpacity>
     </>
   );
 };
 
-const styles = StyleSheet.create({
-});
+const styles = StyleSheet.create({});
 
 export default LoginScreen;
