@@ -6,6 +6,7 @@ import Home from "./src/screens/Home.js";
 import Job from "./src/screens/Job.js";
 import LoginScreen from "./src/screens/LoginScreen.js";
 import RegistrationScreen from "./src/screens/RegistrationScreen.js";
+import SettingsPage from "./src/screens/SettingsPage.js";
 
 const Tab = createBottomTabNavigator();
 const Stack =createStackNavigator();
@@ -16,6 +17,7 @@ const Stack =createStackNavigator();
       <Tab.Navigator>
         <Tab.Screen name="Home" component={Home} />
         <Tab.Screen name="Job" component={Job} />
+        <Tab.Screen name="SettingsPage" component={SettingsPage} />
       </Tab.Navigator>
   );
 
