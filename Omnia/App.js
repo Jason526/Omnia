@@ -7,15 +7,35 @@ import Job from "./src/screens/Job.js";
 import LoginScreen from "./src/screens/LoginScreen.js";
 import RegistrationScreen from "./src/screens/RegistrationScreen.js";
 import SettingsPage from "./src/screens/SettingsPage.js";
+import {Image} from "react-native";
 
 const Tab = createBottomTabNavigator();
 const Stack =createStackNavigator();
+
+function LogoTitle() {
+  return (
+    <Image
+      style={{ width: 50, height: 40,resizeMode:'contain' }}
+      source={require("./assets/OmniaLogoWhite.png")}
+    />
+  );
+}
 
  function Main() {
 
   return (
       <Tab.Navigator>
-        <Tab.Screen name="Home" component={Home} />
+        <Tab.Screen name="Home" component={Home} 
+        options={{
+          headerTitle: props => <LogoTitle {...props} /> ,
+          headerStyle: {
+            height: 120,
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}/>
         <Tab.Screen name="Job" component={Job} />
         <Tab.Screen name="SettingsPage" component={SettingsPage} />
       </Tab.Navigator>
@@ -29,7 +49,17 @@ const Stack =createStackNavigator();
         <Stack.Navigator>
           <Stack.Screen name="LoginScreen" component={LoginScreen} />
           <Stack.Screen name="RegistrationScreen" component={RegistrationScreen} />
-          <Stack.Screen name="Main" component={Main} />
+          <Stack.Screen name="Main" component={Main} 
+        options={{
+          headerTitle: props => <LogoTitle {...props} /> ,
+          headerStyle: {
+            height: 120,
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}/>
         </Stack.Navigator>
       </NavigationContainer>
     );
