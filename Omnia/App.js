@@ -7,6 +7,7 @@ import Job from "./src/screens/Job.js";
 import LoginScreen from "./src/screens/LoginScreen.js";
 import RegistrationScreen from "./src/screens/RegistrationScreen.js";
 import SettingsPage from "./src/screens/SettingsPage.js";
+import Choice from "./src/screens/Choice.js";
 import {Image} from "react-native";
 
 const Tab = createBottomTabNavigator();
@@ -59,6 +60,17 @@ function LogoTitle() {
           },
         }}/>
           <Stack.Screen name="RegistrationScreen" component={RegistrationScreen} 
+        options={{
+          headerTitle: props => <LogoTitle {...props} /> ,
+          headerStyle: {
+            height: 120,
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}/>
+        <Stack.Screen name="Choice" component={Choice} 
         options={{
           headerTitle: props => <LogoTitle {...props} /> ,
           headerStyle: {

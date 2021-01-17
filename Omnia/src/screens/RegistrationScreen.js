@@ -6,7 +6,7 @@ const RegistrationScreen= ({navigation}) => {
 
   return (
     <>
-    <TouchableOpacity onPress={() => navigation.navigate('Main')}>
+    <TouchableOpacity onPress={() => navigation.navigate('Choice')}>
       <Text style={{fontSize:100}}>click for Home</Text>
       </TouchableOpacity>      
     </>
