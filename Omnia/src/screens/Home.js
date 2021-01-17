@@ -1,12 +1,19 @@
 import React,{useState} from 'react';
-import {Text,StyleSheet,View,TouchableOpacity,Image} from 'react-native';
-import SearchBar from 'react-native-search-bar';
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
+import {Text,StyleSheet,View,TouchableOpacity,Image,FlatList,Dimensions} from 'react-native';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+import Comp from "../components/Comp.js"
 
 
 const Home= ({navigation}) => {
   const search1 = React.createRef();
   const [value,setValue]=useState("");
+
+  const filterArray=[{source: (require('../../assets/grocery.png')),Name:"Groceries"}
+,{source: (require('../../assets/medications.png')),Name:"Medications"}
+,{source: (require('../../assets/post-office.png')),Name:"Post Office"}
+,{source: (require('../../assets/deliveryman.png')),Name:"Delivery"},
+{source: (require('../../assets/others.png')),Name:"Others"},
+]
 
   return (
     <>
@@ -31,6 +38,23 @@ const Home= ({navigation}) => {
       </View>
 
       <View style={{width:"100%",height:3,backgroundColor:"#ededed",lineHeight:1}}/>
+
+      <Text style={{fontSize:20,paddingTop:30}}>Shortcut for Jobs</Text>
+      <Text style={{fontSize:10}}>{"\n"}</Text>
+      <FlatList
+      data={filterArray}
+      horizontal={true}
+      renderItem={({ item }) => {
+        return (
+          <TouchableOpacity style={{borderWidth:1,borderColor:"#f2f2f2",padding:30,height:150}}>
+            <Image source={item.source} style={{resizeMode:'contain',width: (Dimensions.get('screen').width) / 3,height:70,marginBottom:15}}/>
+            <Text style={{textAlign:'center',fontSize:20,width:"100%"}}>{item.Name}</Text>
+          </TouchableOpacity>
+        );
+      }}
+    />
+
+      
 
 
       </KeyboardAwareScrollView>
