@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     paddingRight: 5,
     textAlign: 'left',
   },
-  paymentDescription: {
-    textAlignVertical: BottomTabBar,
-  },
+  //   paymentDescription: {
+  //     textAlignVertical: BottomTabBar,
+  //   },
 });
